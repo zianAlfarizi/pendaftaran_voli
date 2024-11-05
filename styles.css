@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #5770f9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Main Section Styling */
+main {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form label, form input, form select, form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #25a23e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #297cf1;
+}
+
+/* Responsive Image in Aside (index.html) */
+aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Bootstrap-Specific Button Styling */
+.btn-primary {
+    background-color: #25a23e;
+    border-color: #333;
+}
+
+.btn-primary:hover {
+    background-color: #48e7a2;
+    border-color: #54c6df;
+}
+
+
